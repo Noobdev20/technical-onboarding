@@ -66,13 +66,14 @@ const About = () => {
         <p className="large">{description}</p>
         <hr />
         <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
+          // style={{
+          //   textAlign: "left",
+          //   columns: 2,
+          //   fontSize: "1.25rem",
+          //   margin: "2rem 3rem",
+          //   gap: "3rem",
+          // }}
+          className="skills-list"
         >
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>

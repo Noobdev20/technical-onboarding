@@ -123,3 +123,11 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+@media (min-width: 600px) {
+  .skills-list {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
